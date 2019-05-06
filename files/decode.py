@@ -80,23 +80,23 @@ def encrypt_number():
         elif (ch == 11):
             rep = '0'
         elif (ch == 29):
-            rep = '|CTRL|'
+            rep = '<CTRL>'
         elif (ch == 42):
-            rep = '|SHIFT|'
+            rep = '<SHIFT>'
         elif (ch == 54):
-            rep = '|SHIFT|'
+            rep = '<SHIFT>'
         elif (ch == 56):
-            rep = '|ALTR|'
+            rep = '<ALTR>'
         elif (ch == 28):
-            rep = '|ENTER| \n'
+            rep = '<ENTER> \n'
         elif (ch == 1):
-            rep = '|ESC|'
+            rep = '<ESC>'
         elif (ch == 15):
-            rep = '|TAB|'
+            rep = '<TAB>'
         elif (ch == 14):
-            rep = '|BACKSPACE|'
+            rep = '<BACKSPACE>'
         else:
-            rep= 'UK'
+            rep= '*'
         sumnum += rep
     print(sumnum)
 
